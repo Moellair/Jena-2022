@@ -1,1 +1,38 @@
-
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="002AP Ost" id="0" comment="" altitude="367.0">
+      <Location longitude="11.8547167" latitude="50.87555"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="508SCHMALKALDEN" id="0" comment="" altitude="287.0">
+      <Location longitude="10.4397167" latitude="50.7202833"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="547STAFFELSTEIN SQU" id="0" comment="" altitude="273.0">
+      <Location longitude="11.0" latitude="50.1027833"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="176FLOSSENBUERG" id="0" comment="" altitude="639.0">
+      <Location longitude="12.3497167" latitude="49.73305"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="570TEUSCHNITZ" id="0" comment="" altitude="618.0">
+      <Location longitude="11.3813833" latitude="50.39805"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="278JENA-SCHOENGLEINA" id="0" comment="" altitude="373.0">
+      <Location longitude="11.7133333" latitude="50.9147167"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="5000.0"/>
+  </Point>
+</Task>
