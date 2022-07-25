@@ -6,21 +6,27 @@
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="126DERMBACH RWST" id="0" comment="" altitude="364.0">
-      <Location longitude="10.1225" latitude="50.715"/>
+    <Waypoint name="030ASCHERSLEBEN BF" id="0" comment="" altitude="160.0">
+      <Location longitude="11.4641667" latitude="51.7575"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="679ZWIESEL RWST" id="0" comment="" altitude="582.0">
-      <Location longitude="13.2277833" latitude="49.02195"/>
+    <Waypoint name="353LUEBBENAU" id="0" comment="" altitude="70.0">
+      <Location longitude="13.9222167" latitude="51.8441667"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="107COLDITZ" id="0" comment="" altitude="172.0">
+      <Location longitude="12.8083333" latitude="51.1236167"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Finish">
-    <Waypoint name="278JENA-SCHOENGLEINA" id="0" comment="" altitude="373.0">
+    <Waypoint name="008Zielkreis" id="0" comment="" altitude="373.0">
       <Location longitude="11.7133333" latitude="50.9147167"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="5000.0"/>
+    <ObservationZone type="Line" length="1000.0"/>
   </Point>
 </Task>
