@@ -1,32 +1,38 @@
 <Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="003AP Sued" id="0" comment="" altitude="281.0">
-      <Location longitude="11.6591667" latitude="50.8116667"/>
+    <Waypoint name="001AP Nord" id="0" comment="" altitude="341.0">
+      <Location longitude="11.7113833" latitude="50.9802833"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="047BAD LIEBENSTEIN" id="0" comment="" altitude="355.0">
-      <Location longitude="10.34945" latitude="50.83805"/>
+    <Waypoint name="243HELBRA" id="0" comment="" altitude="256.0">
+      <Location longitude="11.4825" latitude="51.54555"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="398NEUNKIRCHEN KLOS" id="0" comment="" altitude="498.0">
-      <Location longitude="12.9683333" latitude="49.265"/>
+    <Waypoint name="426ORANIENBAUM" id="0" comment="" altitude="65.0">
+      <Location longitude="12.38945" latitude="51.8"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Turn">
-    <Waypoint name="258HOHENBERG CAS" id="0" comment="" altitude="531.0">
-      <Location longitude="12.22305" latitude="50.0975"/>
+    <Waypoint name="296KLEINKRAUSNIK" id="0" comment="" altitude="102.0">
+      <Location longitude="13.61055" latitude="51.7336167"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="107COLDITZ" id="0" comment="" altitude="172.0">
+      <Location longitude="12.8083333" latitude="51.1236167"/>
     </Waypoint>
     <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Finish">
-    <Waypoint name="278JENA-SCHOENGLEINA" id="0" comment="" altitude="373.0">
+    <Waypoint name="008Zielkreis" id="0" comment="" altitude="373.0">
       <Location longitude="11.7133333" latitude="50.9147167"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="5000.0"/>
+    <ObservationZone type="Line" length="1000.0"/>
   </Point>
 </Task>
