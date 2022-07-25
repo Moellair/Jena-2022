@@ -27,6 +27,6 @@
     <Waypoint name="008Zielkreis" id="0" comment="" altitude="373.0">
       <Location longitude="11.7133333" latitude="50.9147167"/>
     </Waypoint>
-    <ObservationZone type="Line" length="1000.0"/>
+    <ObservationZone type="Cylinder" radius="5000.0"/>
   </Point>
 </Task>
