@@ -1,33 +1,27 @@
-<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="300" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="001AP Nord" id="0" comment="" altitude="341.0">
-      <Location longitude="11.7113833" latitude="50.9802833"/>
+    <Waypoint name="003AP Sued" id="0" comment="" altitude="281.0">
+      <Location longitude="11.6591667" latitude="50.8116667"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="243HELBRA" id="0" comment="" altitude="256.0">
-      <Location longitude="11.4825" latitude="51.54555"/>
+  <Point type="Area">
+    <Waypoint name="141DUDERSTADT" id="0" comment="" altitude="85.0">
+      <Location longitude="10.2516667" latitude="51.5072167"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="45000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="426ORANIENBAUM" id="0" comment="" altitude="65.0">
-      <Location longitude="12.38945" latitude="51.8"/>
+  <Point type="Area">
+    <Waypoint name="047BAD LIEBENSTEIN" id="0" comment="" altitude="355.0">
+      <Location longitude="10.34945" latitude="50.83805"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="25000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="296KLEINKRAUSNIK" id="0" comment="" altitude="102.0">
-      <Location longitude="13.61055" latitude="51.7336167"/>
+  <Point type="Area">
+    <Waypoint name="447POESSNECK BF SUE" id="0" comment="" altitude="224.0">
+      <Location longitude="11.5883333" latitude="50.6908333"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
-  </Point>
-  <Point type="Turn">
-    <Waypoint name="107COLDITZ" id="0" comment="" altitude="172.0">
-      <Location longitude="12.8083333" latitude="51.1236167"/>
-    </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="15000.0"/>
   </Point>
   <Point type="Finish">
     <Waypoint name="008Zielkreis" id="0" comment="" altitude="373.0">
