@@ -1,27 +1,27 @@
-<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="004AP West" id="0" comment="" altitude="321.0">
-      <Location longitude="11.5363833" latitude="50.8788833"/>
+    <Waypoint name="001AP Nord" id="0" comment="" altitude="341.0">
+      <Location longitude="11.7113833" latitude="50.9802833"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="030ASCHERSLEBEN BF" id="0" comment="" altitude="160.0">
-      <Location longitude="11.4641667" latitude="51.7575"/>
+  <Point type="Area">
+    <Waypoint name="526SEESEN" id="0" comment="" altitude="130.0">
+      <Location longitude="10.1297167" latitude="51.885"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="50000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="353LUEBBENAU" id="0" comment="" altitude="70.0">
-      <Location longitude="13.9222167" latitude="51.8441667"/>
+  <Point type="Area">
+    <Waypoint name="227GUESTEN BF" id="0" comment="" altitude="80.0">
+      <Location longitude="11.6016667" latitude="51.7933333"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="25000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="107COLDITZ" id="0" comment="" altitude="172.0">
-      <Location longitude="12.8083333" latitude="51.1236167"/>
+  <Point type="Area">
+    <Waypoint name="447POESSNECK BF SUE" id="0" comment="" altitude="224.0">
+      <Location longitude="11.5883333" latitude="50.6908333"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="15000.0"/>
   </Point>
   <Point type="Finish">
     <Waypoint name="008Zielkreis" id="0" comment="" altitude="373.0">
