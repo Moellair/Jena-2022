@@ -1,27 +1,27 @@
-<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
     <Waypoint name="004AP West" id="0" comment="" altitude="321.0">
       <Location longitude="11.5363833" latitude="50.8788833"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="030ASCHERSLEBEN BF" id="0" comment="" altitude="160.0">
-      <Location longitude="11.4641667" latitude="51.7575"/>
+  <Point type="Area">
+    <Waypoint name="368MENTERODA" id="0" comment="" altitude="429.0">
+      <Location longitude="10.5333333" latitude="51.3352833"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="40000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="510SCHOENA KOLPIEN" id="0" comment="" altitude="101.0">
-      <Location longitude="13.445" latitude="51.8158333"/>
+  <Point type="Area">
+    <Waypoint name="440PHLIPPSTHAL KALI" id="0" comment="" altitude="233.0">
+      <Location longitude="9.9808333" latitude="50.84"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="25000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="107COLDITZ" id="0" comment="" altitude="172.0">
-      <Location longitude="12.8083333" latitude="51.1236167"/>
+  <Point type="Area">
+    <Waypoint name="447POESSNECK BF SUE" id="0" comment="" altitude="224.0">
+      <Location longitude="11.5883333" latitude="50.6908333"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="Cylinder" radius="15000.0"/>
   </Point>
   <Point type="Finish">
     <Waypoint name="008Zielkreis" id="0" comment="" altitude="373.0">
