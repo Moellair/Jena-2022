@@ -1,27 +1,33 @@
-<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
-    <Waypoint name="004AP West" id="0" comment="" altitude="321.0">
-      <Location longitude="11.5363833" latitude="50.8788833"/>
+    <Waypoint name="002AP Ost" id="0" comment="" altitude="367.0">
+      <Location longitude="11.8547167" latitude="50.87555"/>
     </Waypoint>
     <ObservationZone type="Line" length="20000.0"/>
   </Point>
-  <Point type="Area">
-    <Waypoint name="368MENTERODA" id="0" comment="" altitude="429.0">
-      <Location longitude="10.5333333" latitude="51.3352833"/>
+  <Point type="Turn">
+    <Waypoint name="545STADTILM BF" id="0" comment="" altitude="377.0">
+      <Location longitude="11.0708333" latitude="50.7666667"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="40000.0"/>
+    <ObservationZone type="Keyhole"/>
   </Point>
-  <Point type="Area">
-    <Waypoint name="440PHLIPPSTHAL KALI" id="0" comment="" altitude="233.0">
-      <Location longitude="9.9808333" latitude="50.84"/>
+  <Point type="Turn">
+    <Waypoint name="637WERNSHAUSEN" id="0" comment="" altitude="464.0">
+      <Location longitude="10.3513833" latitude="50.7222167"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="25000.0"/>
+    <ObservationZone type="Keyhole"/>
   </Point>
-  <Point type="Area">
-    <Waypoint name="447POESSNECK BF SUE" id="0" comment="" altitude="224.0">
-      <Location longitude="11.5883333" latitude="50.6908333"/>
+  <Point type="Turn">
+    <Waypoint name="420OCHSENKOPF" id="0" comment="" altitude="999.0">
+      <Location longitude="11.8116667" latitude="50.0288833"/>
     </Waypoint>
-    <ObservationZone type="Cylinder" radius="15000.0"/>
+    <ObservationZone type="Keyhole"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="282JOEHSTADT" id="0" comment="" altitude="786.0">
+      <Location longitude="13.0891667" latitude="50.5138833"/>
+    </Waypoint>
+    <ObservationZone type="Keyhole"/>
   </Point>
   <Point type="Finish">
     <Waypoint name="008Zielkreis" id="0" comment="" altitude="373.0">
